@@ -1,0 +1,43 @@
+{
+  "name": "cog-dropdown",
+  "version": "1.0.0",
+  "description": "Cognizant React dropdown built with accessibility in mind",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:toddlemoine/cog-dropdown.git",
+    "type": "git"
+  },
+  "author": "Todd Lemoine <todd.lemoine@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-plugin-transform-require-ignore": "0.0.2",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.26.1",
+    "enzyme": "^2.6.0",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "mocha": "^3.2.0",
+    "node-sass": "^3.13.0",
+    "react-addons-test-utils": "^15.4.1",
+    "sass-loader": "^4.0.2",
+    "sinon": "^1.17.6",
+    "storybook": "0.0.0",
+    "webpack": "^1.13.3"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "NODE_ENV=test mocha --recursive --require babel-register",
+    "test:watch": "npm run test -- -w"
+  }
+}

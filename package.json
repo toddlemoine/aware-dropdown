@@ -1,10 +1,10 @@
 {
-  "name": "cog-dropdown",
+  "name": "aware-dropdown",
   "version": "1.0.0",
-  "description": "Cognizant React dropdown built with accessibility in mind",
+  "description": "A React dropdown built with accessibility in mind",
   "main": "index.js",
   "repository": {
-    "url": "git@github.com:toddlemoine/cog-dropdown.git",
+    "url": "git@github.com:toddlemoine/aware-dropdown.git",
     "type": "git"
   },
   "author": "Todd Lemoine <todd.lemoine@gmail.com>",
